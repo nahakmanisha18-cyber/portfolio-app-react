@@ -3,7 +3,7 @@ import food from "../assets/image/food.png";
 import secure from "../assets/image/secure.png";
 import product from "../assets/image/product.png";
 import note from "../assets/image/note.png";
-import react from "../assets/image/react.png";
+import Dashboard from "../assets/image/dashboard.png";
 
 
 const Projects = () => {
@@ -44,11 +44,11 @@ const Projects = () => {
             github: "https://github.com/nahakmanisha18-cyber/Notepad_web"
         },
         {
-            title: "React Learning Website",
-            desc: "An interactive React learning platform designed to help beginners understand React concepts easily.",
-            image: react,
-            live: "https://react-learn-65fcb5.netlify.app/",
-            github: "https://github.com/nahakmanisha18-cyber/React-Learn"
+            title: "Dashboard Web",
+            desc: "An interactive dashboard application for visualizing data and managing tasks efficiently.",
+            image: Dashboard,
+            live: "https://dashboard-c593a5.netlify.app/",
+            github: "https://github.com/nahakmanisha18-cyber/DashBoard"
         }
     ];
     const displayProjects = [...projectList];
